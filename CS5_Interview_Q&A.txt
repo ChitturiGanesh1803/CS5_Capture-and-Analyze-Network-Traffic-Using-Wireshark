@@ -1,0 +1,26 @@
+1. What is Wireshark used for?
+Wireshark is used to capture and analyze network traffic in real time.
+
+2. What is a packet?
+A packet is a small unit of data sent over a network.
+
+3. How to filter packets in Wireshark?
+By using display filters like http, dns, tcp, or ip.addr == 192.168.1.1.
+
+4. What is the difference between TCP and UDP?
+
+TCP is connection-oriented and reliable.
+
+UDP is connectionless and faster but less reliable.
+
+5. What is a DNS query packet?
+It is a packet sent to a DNS server to resolve a domain name into an IP address.
+
+6. How can packet capture help in troubleshooting?
+It helps identify delays, packet loss, misconfigurations, and suspicious traffic.
+
+7. What is a protocol?
+A protocol is a set of rules that defines how data is transmitted over a network.
+
+8. Can Wireshark decrypt encrypted traffic?
+Yes, but only if the encryption keys are available. Otherwise, encrypted traffic cannot be read.
